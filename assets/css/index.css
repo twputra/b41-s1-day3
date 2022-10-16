@@ -114,7 +114,6 @@ a {
 
 .mallard {
     background: #4299f0;
-    margin: 125px auto 20px;
     max-width: 1280px;
     margin: 50px auto 20px;
     padding: 50px;
@@ -123,17 +122,18 @@ a {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .mallard .mallard-left {
-    width: 700px;
+    width: 500px;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 20px;
 }
 
 .mallard-left .mallard-text {
@@ -175,7 +175,6 @@ a {
 }
 
 .mallard-left .mallard-social {
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -195,7 +194,7 @@ a {
 }
 
 .mallard .profile-card {
-    width: 250px;
+    width: 400px;
     border-radius: 10px;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.75);
 }
